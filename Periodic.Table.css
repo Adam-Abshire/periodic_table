@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+#container{
+    background-color: #eeeeee;
+    width: 970px;
+    margin: auto;
+}
+#top{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+#left{
+    display: flex;
+    flex-direction: row;
+    width: 158px;
+}
+#right{
+    display: flex;
+    flex-direction: row;
+}
+#bottom{
+margin-top: 25px;
+display: flex;
+padding-bottom: 20px;
+}
+#transition-metals{
+    height: 92px;
+    width: 158px;
+    font: bold;
+}
+#green{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    display: flex;
+    height: 45px;
+    width: 45px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    font-weight: bold;
+    outline: 1px solid black;
+    margin: 2px;
+}
+span{
+    color: #1916a4;
+    font-size: 22px;
+    font-weight: bold;
+}
+h2{
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 48px;
+    margin-top: 22px;
+    margin-bottom: 12px;
+}
+h3{
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 29px;
+}
+h4{
+    color: red;
+    font-size: 12px;
+    font: bold;
+    display: inline-block;
+    margin-left: 36px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: inline-flex;
+    flex-direction: row;
+}
+.label{
+    color: red;
+    outline: none;
+    text-align: center;
+    font-size: 12px;
+}
+.blank{
+    outline: none;
+}
+.blue{
+    background-color: #689bff;
+}
+.red{
+    background-color: #fd9a98;
+}
+.yellow{
+    background-color: #fecb00;
+}
+.green{
+    background-color: #1fca21;
+}
